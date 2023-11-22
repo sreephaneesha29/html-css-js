@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    background: url(assets/images/bg.jpg);
+    height: 80vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px,100vw);
+
+}
+
+.main .box {
+    width: 100%;
+    height: 80vh;
+    opacity: 0.44;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+
+}
+
+nav {
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+nav span img{
+    color: rgb(229,9,20);
+    width: 114px;
+    position: relative;
+    z-index: 10;
+    
+
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-family: 'Martel Sans', sans-serif;
+    gap: 23px;
+
+}
+.hero> :nth-child(1){
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+}
+.hero> :nth-child(3) {
+font-weight: 400;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
