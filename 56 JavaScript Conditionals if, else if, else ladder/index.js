@@ -2,7 +2,7 @@ console.log("Hello I am conditional tutorial")
 
 let age = 1;
 // let grace = 2;
-
+// age++ // increment
 // age += grace
 // console.log(age)
 // console.log(age + grace)
@@ -16,7 +16,7 @@ let age = 1;
 I am a 
 multiline 
 comment
-*/
+*/ 
 
 if (age == 18) {
     console.log("You can drive");
