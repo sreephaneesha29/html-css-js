@@ -44,7 +44,7 @@ translates to:
 if(a>b){
     let c = a - b;
 }
-else {
+else { 
     let c = a - b;
 }
 
