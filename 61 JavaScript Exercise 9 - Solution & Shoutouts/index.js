@@ -1,6 +1,6 @@
 const a=prompt("enter first number")
-const b=prompt("enter second number")
 let c =prompt("Enter opration")
+const b=prompt("enter second number")
 random1=Math.random()
 const obj={
     "+":"-",
